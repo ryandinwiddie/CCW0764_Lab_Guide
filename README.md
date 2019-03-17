@@ -6,7 +6,7 @@ ryandinwiddie
 ### Presentation
 **Estimated Time: 15 Mins**
 
-# Part 1 
+# Part 1  
 ## Getting Logged in 
 **Estimated Time: 10 Mins**
 

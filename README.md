@@ -284,4 +284,4 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Search by Name "Complaints Backlog Growth"
 
-1. Click Add
+1. Click Add 

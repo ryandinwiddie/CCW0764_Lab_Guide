@@ -268,10 +268,10 @@ Now that new indicators have been added to the instance the data collections wil
     - **Indicator:** Minimize
     - **Type:** Time Series
     - **Visualization:** Column Chart
-    - **Period:** 3 Months
+    - **Period:** 3 Months 
     - **Show Date Range Selector:** Yes
-1. Click Update
-
+1. Click Update 
+ 
 1. Click on Performance Analytics > Dashabords
 
 1. Location the **HR and Complaint Tracking** dashboard created in step XX
@@ -284,4 +284,4 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Search by Name "Complaints Backlog Growth"
 
-1. Click Add 
+1. Click Add

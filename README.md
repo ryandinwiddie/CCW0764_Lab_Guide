@@ -155,3 +155,133 @@ Now that new indicators have been added to the instance the data collections wil
 ## Building new Indicators in a Custom Scope (Complaint Tracking)
 **Estimated Time: 25 Mins**
 
+1. Load the application from XML
+
+1. Review Data and Configuration 
+
+1. Switch Scopes in the dropdown to "Complaint Tracking"
+
+1. Navigate to System Update Set > Local Update Set
+
+1. Click New
+
+1. Set the Name as "CreatorCon < yourname > Complaint Core PA"
+
+1. In the **Application Navigator** type **yt** for the Performance Analytics Menu
+
+1. Click on Indicators > Create New
+
+   Set the configuration as below:
+    - **Indicator Name:**  Complaint Cases per Day
+    - **Description:** Open Complaint Cases per Day
+    - **Direction:** Minimize 
+    - **Unit:** #
+    - **Group:** -None-
+
+1. Click Next
+
+1. Set Indicator Source: **Complaint.Case.Open**
+
+1. Set Aggregate to **Count**
+
+1. No additional conditions are needed at the bottom of the Data Source tab
+
+1. Click next
+
+1. Check these breakdowns:
+    - Age
+    - Asisgnment Group
+    - Department 
+    - Location 
+    - State
+1. Click next 
+
+1. Set the Job to **[PA Complaint Case] Daily Data Collection**
+
+1. Verify **Collect data from the past** is checked 
+
+1. Choose **90 Days ago** from the drop down
+
+1. Click Next 
+
+1. Check **Time Series Widget**
+
+1. Set the Visualization to **Column**
+
+1. Put the widget om the **HR and Complaint Tracking** dashboard created in step XX
+
+1. Review the dashboard with the new indicator
+
+### Grouping By Location
+
+1. Click on Performance Analytics > Widgets 
+
+1. Click New
+
+   Set the configuration as below:
+    - **Name:**  Complaints by Location 
+    - **Lookup Name:**  Complaints by Location 
+    - **Description:** Open Complaint by Location
+    - **Indicator:** Complaint Cases per Day 
+    - **Breakdown:** Location
+
+1. Click Save
+
+1. Click on Performance Analytics > Dashabords
+
+1. Location the **HR and Complaint Tracking** dashboard created in step XX
+
+1. Click on the **+** on the dashboard to add a widget
+
+1. Select **Performance Analytics** In the dropdown
+
+1. Select Breakdown Type
+
+1. Search by Name
+
+1. Click Add
+
+### Complaint Backlog 
+
+ 1. Navigate to Performance Analytics > Formula Indicators
+
+1. Click New
+
+   Set the configuration as below:
+    - **Name:**  Complaints Backlog 
+    - **Description:** Total Complaint flow
+    - **Direction:** Minimize
+    - **Unit:** #
+    - **Formula:** `[Open Cases]-[Closed Cases]`
+    
+
+1. Click Submit
+
+1. Navigate to Performance Analytics > Widgets
+
+1. Click New
+
+    Set the configuration as below:
+    - **Name:**  Complaints Backlog Growth
+    - **Lookup Name:**  Complaints Backlog Growth
+    - **Description:** Complaints Backlog Growth
+    - **Indicator:** Minimize
+    - **Type:** Time Series
+    - **Visualization:** Column Chart
+    - **Period:** 3 Months
+    - **Show Date Range Selector:** Yes
+1. Click Update
+
+1. Click on Performance Analytics > Dashabords
+
+1. Location the **HR and Complaint Tracking** dashboard created in step XX
+
+1. Click on the **+** on the dashabord to add a widget
+
+1. Select **Performance Analytics** In the dropdown
+
+1. Select Breakdown Type
+
+1. Search by Name "Complaints Backlog Growth"
+
+1. Click Add

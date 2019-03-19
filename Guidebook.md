@@ -12,7 +12,6 @@ Access your course lab through cloud labs
 
 *** INSTRUCTIONS HERE ***
 
-
 # Part 2
 ## Reviewing Existing Indicators in Human Resources Scope
 **Estimated Time: 15 Mins**

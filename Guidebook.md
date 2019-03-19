@@ -8,7 +8,7 @@
 ## Getting Logged in 
 **Estimated Time: 10 Mins**
 
-Access your course lab through cloud labs
+Access your course lab through cloud labs 
 
 *** INSTRUCTIONS HERE ***
 

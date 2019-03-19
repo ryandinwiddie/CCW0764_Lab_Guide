@@ -1,6 +1,4 @@
 
-ryandinwiddie
-
 # Performance Analytics in Scoped Applications - Baseline and Custom Applications
 ## Creator Con Lab - CCW0764
 ### Presentation
@@ -13,26 +11,25 @@ ryandinwiddie
 Access your course lab through cloud labs
 
 *** INSTRUCTIONS HERE ***
- 
+
 
 # Part 2
 ## Reviewing Existing Indicators in Human Resources Scope
 **Estimated Time: 15 Mins**
 
 1. Log into the instance as an administrator
-** Image here **
+![](images/login.png)
 
 1. Click on the Gear Menu 
-** image here **
+![](images/gearmenu.png)
 
 1. Navigate to the Developer Tab
-** image here **
+![](images/devtab.png)
 
 1. Toggle the "Show Application Picket in Header"
-** image here **
 
 1. Togggle the "Show Update Set in Header"
-** image here **
+![](images/gearmenu_with_toggles.png)
 
 1. Close the Menu
 

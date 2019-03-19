@@ -31,7 +31,7 @@ Access your course lab through cloud labs
 1. Togggle the "Show Update Set in Header"
 ![](images/gearmenu_with_toggles.png)
 
-1. Close the Menu
+1. Close the Menu 
 
 1. Switch Scopes in the dropdown to "Human Resources: Performance Analytics"
 

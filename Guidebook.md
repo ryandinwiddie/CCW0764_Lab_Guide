@@ -6,7 +6,7 @@
 
 # Part 1  
 ## Getting Logged in 
-**Estimated Time: 10 Mins**
+**Estimated Time: 5 Mins**
 
 Access your course lab through cloud labs 
 
@@ -75,25 +75,22 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Click Execute Now
 
-### Dashabord Review
+### Dashboard Review
 1. Navigate to Performance Analytics > Dashboards 
 
 1. Click on All
 
-1. Find the HR Manager dashbaord and review the indicators 
+1. Find the HR Manager dashboard and review the indicators
 
-1. Find the HR Agent dashbaord and review the indicators 
+1. Find the HR Agent dashboard and review the indicators
 
-### Create a New Dashabord
+### Create a New Dashboard
 
 1. Click New
 
 1. Set the Name to **HR and Complaint Tracking**
 
 1. Leave the other values as baseline
-
-
-
 
 # Part 3
 ## Building new Indicators in HR Scope
@@ -105,8 +102,8 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Set the configuration as below:
     - **Indicator Name:**  HR Cases by COE
-    - **Description:** Open HR cases by Center of Excellence 
-    - **Direction:** Minimize 
+    - **Description:** Open HR cases by Center of Excellence
+    - **Direction:** Minimize
     - **Unit:** #
     - **Group:** -None-
 
@@ -122,12 +119,12 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Check these breakdowns:
     - Age
-    - Asisgnment Group
-    - Department 
+    - Assignment Group
+    - Department
     - HR Service
-    - Location 
+    - Location
     - State
-1. Click next 
+1. Click next
 
 1. Set the Job to **[PA HR Case] Daily Data Collection**
 
@@ -135,7 +132,7 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Choose **90 Days ago** from the drop down
 
-1. Click Next 
+1. Click Next
 
 1. Check **Time Series Widget**
 
@@ -151,9 +148,7 @@ Now that new indicators have been added to the instance the data collections wil
 ## Building new Indicators in a Custom Scope (Complaint Tracking)
 **Estimated Time: 25 Mins**
 
-1. Load the application from XML
-
-1. Review Data and Configuration 
+1. Review Data and Configuration
 
 1. Switch Scopes in the dropdown to "Complaint Tracking"
 
@@ -170,7 +165,7 @@ Now that new indicators have been added to the instance the data collections wil
    Set the configuration as below:
     - **Indicator Name:**  Complaint Cases per Day
     - **Description:** Open Complaint Cases per Day
-    - **Direction:** Minimize 
+    - **Direction:** Minimize
     - **Unit:** #
     - **Group:** -None-
 
@@ -186,11 +181,11 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Check these breakdowns:
     - Age
-    - Asisgnment Group
-    - Department 
-    - Location 
+    - Assignment Group
+    - Department
+    - Location
     - State
-1. Click next 
+1. Click next
 
 1. Set the Job to **[PA Complaint Case] Daily Data Collection**
 
@@ -198,7 +193,7 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Choose **90 Days ago** from the drop down
 
-1. Click Next 
+1. Click Next
 
 1. Check **Time Series Widget**
 
@@ -210,20 +205,20 @@ Now that new indicators have been added to the instance the data collections wil
 
 ### Grouping By Location
 
-1. Click on Performance Analytics > Widgets 
+1. Click on Performance Analytics > Widgets
 
 1. Click New
 
    Set the configuration as below:
-    - **Name:**  Complaints by Location 
-    - **Lookup Name:**  Complaints by Location 
+    - **Name:**  Complaints by Location
+    - **Lookup Name:**  Complaints by Location
     - **Description:** Open Complaint by Location
-    - **Indicator:** Complaint Cases per Day 
+    - **Indicator:** Complaint Cases per Day
     - **Breakdown:** Location
 
 1. Click Save
 
-1. Click on Performance Analytics > Dashabords
+1. Click on Performance Analytics > Dashboard
 
 1. Location the **HR and Complaint Tracking** dashboard created in step XX
 
@@ -237,24 +232,22 @@ Now that new indicators have been added to the instance the data collections wil
 
 1. Click Add
 
-### Complaint Backlog 
+### Complaint Backlog
 
  1. Navigate to Performance Analytics > Formula Indicators
 
 1. Click New
 
    Set the configuration as below:
-    - **Name:**  Complaints Backlog 
+    - **Name:**  Complaints Backlog
     - **Description:** Total Complaint flow
     - **Direction:** Minimize
     - **Unit:** #
     - **Formula:** `[Open Cases]-[Closed Cases]`
-    
+
 
 1. Click Submit
-
 1. Navigate to Performance Analytics > Widgets
-
 1. Click New
 
     Set the configuration as below:
@@ -264,15 +257,15 @@ Now that new indicators have been added to the instance the data collections wil
     - **Indicator:** Minimize
     - **Type:** Time Series
     - **Visualization:** Column Chart
-    - **Period:** 3 Months 
+    - **Period:** 3 Months
     - **Show Date Range Selector:** Yes
-1. Click Update 
+1. Click Update
  
-1. Click on Performance Analytics > Dashabords
+1. Click on Performance Analytics > Dashboards
 
 1. Location the **HR and Complaint Tracking** dashboard created in step XX
 
-1. Click on the **+** on the dashabord to add a widget
+1. Click on the **+** on the dashboard to add a widget
 
 1. Select **Performance Analytics** In the dropdown
 
